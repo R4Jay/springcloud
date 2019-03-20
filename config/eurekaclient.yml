@@ -7,11 +7,11 @@ server:
 spring:
   application:
     name: eurekaclient
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
-  sleuth:
-    sampler:
-      percentage: 1.0
+  #rabbitmq:
+  #  host: localhost
+  # port: 5672
+  #  username: guest
+  #  password: guest
+  #sleuth:
+  #  sampler:
+  #    percentage: 1.0
