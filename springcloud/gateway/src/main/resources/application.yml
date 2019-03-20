@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8080
+spring:
+  application:
+    name: gateway
+zuul:
+  routes:
+    api:
+      #zuul.routes.api.path：指定请求基础地址，其中 API 可以是任何字符。
+      path: /api/**
+      #转发到的服务 ID，也就是指定服务的 application.name，上述实例的含义表示只要包含 /api/ 的地址，都自动转发到 eurekaclient 的服务去。
+      serviceId: eurekaclient

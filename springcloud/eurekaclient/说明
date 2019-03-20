@@ -1,0 +1,25 @@
+如果启用SpringCoud配置中心进行配置文件管理我们如下几点需要注意
+说明：配置创建配置中心的目的就是为了方便其他服务进行统一的配置管理，因此，还需要修改各个服务。
+
+1，
+以服务提供者 eurekaclient 为例，按照以下步骤进行操作。
+在 pom.xml 加入配置中心依赖：
+
+<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+在 resources 下新建 bootstrap.yml 并删除 application.yml（注意：这里不是 application.yml，而是 bootstrap.yml）：
+原application.yml配置如下:
+
+eureka:
+  client:
+    serviceUrl:
+      #eureka.client.serviceUrl.defaultZone 的作用是指定注册中心的地址。
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    #spring.application.name 为该服务的名字, 相当于serviceID
+    name: eurekaclient

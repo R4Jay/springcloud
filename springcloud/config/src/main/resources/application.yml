@@ -1,0 +1,25 @@
+#对外配置服务端口
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          #配置git仓库地址
+          uri: https://github.com/R4Jay/springcloudlearning.git
+          searchPaths: config #配置仓库路径
+          username: R4Jay #访问git仓库的用户名
+          password: Ab123456 #访问git仓库的用户密码
+      label: master #配置仓库的分支
+eureka:
+  instance:
+    hostname: ${spring.cloud.client.ipAddress}
+    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
