@@ -12,29 +12,56 @@
         <module>eurekaclient</module>
         <module>gateway</module>
         <module>feign</module>
+        <module>config</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
+        <!--<version>1.5.9.RELEASE</version>-->
+        <version>2.0.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <properties>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+            </dependency>
+
+
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-autoconfigure</artifactId>-->
+                <!--<version>2.1.3.RELEASE</version>-->
+            <!--</dependency>-->
+            <!--<dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+                <version>2.0.1.RELEASE</version>
+            </dependency>-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <!--<version>Dalston.SR5</version>-->
-                <version>Edgware.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-                <exclusions>
-                </exclusions>
-            </dependency>
+                <!--<version>Edgware.RELEASE</version>-->
+                <version>${spring-cloud.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+            <exclusions>
+            </exclusions>
+        </dependency>
 
-            <!-- Logger in Parent 关于spring boot 1.5.9 限定在启动spring cloud时，对slf4j-api 依赖，同时对ch.qos.logback，com.fasterxml.jackson.core 以及com.fasterxml.jackson.core 都有依赖 具体如下: -->
-            <dependency>
+        <!-- Logger in Parent 关于spring boot 1.5.9 限定在启动spring cloud时，对slf4j-api 依赖，同时对ch.qos.logback，com.fasterxml.jackson.core 以及com.fasterxml.jackson.core 都有依赖 具体如下: -->
+           <!-- <dependency>
                 <artifactId>slf4j-api</artifactId>
                 <groupId>org.slf4j</groupId>
                 <version>1.7.10</version>
@@ -55,14 +82,28 @@
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-core</artifactId>
                 <version>2.6.0</version>
-            </dependency>
+            </dependency>-->
             <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-            <dependency>
+            <!--<dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
                 <version>2.6.0</version>
-            </dependency>
+            </dependency>-->
 
         </dependencies>
     </dependencyManagement>
+    <!--使用aliyun镜像-->
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>Maven Aliyun Mirror</name>
+            <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>

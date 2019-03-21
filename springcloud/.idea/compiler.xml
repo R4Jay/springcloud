@@ -9,18 +9,20 @@
         <module name="config" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
-        <module name="feign" />
-        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloudconfig" target="1.7" />
+      <module name="feign" target="1.8" />
+      <module name="gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloudconfig" options="" />
-      <module name="config" options="" />
+      <module name="config" options="-parameters" />
+      <module name="eurekaclient" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
     </option>
   </component>
 </project>

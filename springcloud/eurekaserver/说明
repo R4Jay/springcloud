@@ -1,3 +1,27 @@
+Spring Boot 2.x 已经发布了很久，现在 Spring Cloud 也发布了 基于 Spring Boot 2.x 的 Finchley 版本，现在一起为项目做一次整体框架升级。
+升级前 => 升级后
+
+Spring Boot 1.5.x => Spring Boot 2.0.2
+Spring Cloud Edgware SR4 => Spring Cloud Finchley.RELEASE
+Eureka Server
+
+Eureka Server 依赖更新
+
+升级前：
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-eureka-server</artifactId>
+</dependency>
+
+升级后：
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+</dependency>
+
+
+#指定服务中心端口
 server:
   port: 8761
 spring:
@@ -20,4 +44,3 @@ eureka:
     serviceUrl:
       #client.serviceUrl.defaultZone 注册中心默认地址。
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-

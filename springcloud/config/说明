@@ -11,3 +11,59 @@
                              </dependency>
                      在 resources 下新建 bootstrap.yml 并删除 application.yml（注意：这里不是 application.yml，而是 bootstrap.yml）：
                      原application.yml配置如下:
+
+
+eureka:
+  instance:
+    #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
+    hostname: ${spring.cloud.client.ip-address}
+    instanceId: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    register-with-eureka: true
+    security:
+      enabled: false
+
+#原版本
+#对外配置服务端口
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      #discovery:
+        #enabled: true
+         #serviceId: config-server
+      server:
+        git:
+          #配置git仓库地址
+          uri: https://github.com/r4jay/springcloudlearning.git
+          #uri: git@github.com:r4jay/springcloudlearning.git
+          #配置仓库路径
+          searchPaths: config
+          #访问git仓库的用户名
+          username: r4jay
+          #访问git仓库的用户密码
+          password: xt193429
+      #配置仓库的分支
+      label: master
+eureka:
+  instance:
+    #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
+    #hostname: ${spring.cloud.client.ip-address}
+    #instanceId: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    security:
+      enabled: false
+
+
+
+

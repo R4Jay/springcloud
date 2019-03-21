@@ -2,34 +2,63 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.lynn</groupId>
+    <artifactId>config-server</artifactId>
+    <name>config-server</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <description>Spring Cloud Config project for Spring Boot</description>
     <parent>
         <groupId>com.lynn</groupId>
         <artifactId>springcloud</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <description>Spring Cloud Config project for Spring Boot</description>
-
     <properties>
-        <java.version>1.7</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <!--如果对外服务 需要依赖于SpringCloud配置中心进行配置，需要引入包spring-cloud-config-server,同时需要引入spring-cloud-starter-eureka-->
+        <!--   <dependency>
+               <groupId>org.springframework.cloud</groupId>
+               <artifactId>spring-cloud-starter-eureka</artifactId>
+           </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <!--<artifactId>spring-cloud-netflix-eureka-client</artifactId>-->
+            <!--这里需要注意启用配置中心 如果要注册到注册中心 需为下边的包 针对 springcloud Finchley.RELEASE-->
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!--<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-bus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+        </dependency>
+-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <!--如果对外服务 需要依赖于SpringCloud配置中心进行配置，需要引入包spring-cloud-starter-config,同时需要引入spring-cloud-starter-eureka-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
