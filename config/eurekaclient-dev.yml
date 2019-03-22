@@ -1,5 +1,5 @@
 info:
-  profile: dev bus altered by sunjx,19.03.22 17:08
+  profile: dev bus altered by sunjx,19.03.22 17:15
 eureka:
   client:
     serviceUrl:
