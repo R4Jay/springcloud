@@ -19,9 +19,10 @@ public class HelloController {
         return "Hello World!,端口："+ port;
     }
 
+    @Value("${info.profile}")
     private String profile;
 
-    @GetMapping("/hello")
+    @GetMapping("/info")
     public Mono<String> hello(){
         return Mono.justOrEmpty(profile);
 

@@ -12,7 +12,9 @@ eureka:
     #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
     preferIpAddress: true
     hostname: ${spring.cloud.client.ip-address}
-    instanceId: ${spring.cloud.client.ip-address}:${server.port}
+    #instanceId: ${spring.cloud.client.ip-address}:${server.port}
+    appname: eurekaServer
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
 
   client:
     #registerWithEureka: false
