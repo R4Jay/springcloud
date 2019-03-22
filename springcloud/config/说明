@@ -5,6 +5,64 @@ Spring Cloud Config 实现了对服务端和客户端中环境变量和属性配
 由于 Spring Cloud Config 实现的配置中心默认采用 Git 来存储配置信息，所以使用 Spring Cloud Config 构建的配置服务器，天然就支持对微服务应用配置信息的版本管理，
 并且可以通过 Git 客户端工具来方便的管理和访问配置内容。当然它也提供了对其他存储方式的支持，比如：SVN 仓库、本地化文件系统。
 
+测试
+
+首先我们先要测试 Server 端是否可以读取到 github 上面的配置信息，直接访问 http://localhost:8888/eurekaclient/dev 返回信息如下：
+{
+	"name": "eurekaclient",
+	"profiles": ["test"],
+	"label": null,
+	"version": "5ffda7cc7133e225e39e15f7ff7c649a2bb3b6db",
+	"state": null,
+	"propertySources": [{
+		"name": "https://github.com/r4jay/springcloudlearning.git/config/eurekaclient.yml",
+		"source": {
+			"eureka.client.serviceUrl.defaultZone": "http://localhost:8761/eureka/",
+			"server.port": 8762,
+			"spring.application.name": "eurekaclient",
+			"spring.rabbitmq.host": "localhost",
+			"spring.rabbitmq.port": 5672,
+			"spring.rabbitmq.username": "guest",
+			"spring.rabbitmq.password": "guest",
+			"spring.sleuth.sampler.percentage": 1.0
+		}
+	}]
+}
+上述的返回的信息包含了配置文件的位置、版本、配置文件的名称以及配置文件中的具体内容，说明 Server 端已经成功获取了 Git 仓库的配置信息。
+
+如果直接查看配置文件中的配置信息可访问 http://localhost:8888/eurekaclient-dev.yml 返回：
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: eurekaclient
+  rabbitmq:
+    host: localhost
+    password: guest
+    port: 5672
+    username: guest
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+修改配置文件eurekaclient-dev.yml中配置信息为：dev update, 再次在浏览器访问 http://localhost:8888/eurekaclient-dev.yml.yml 返回：dev update，说明 Server 端会自动读取最新提交的内容。
+SpringCloud 默认采用git的配置方式
+    仓库中的配置文件会被转换成 Web 接口，访问可以参照以下的规则：
+
+        /{application}/{profile}[/{label}]
+        /{application}-{profile}.yml
+        /{label}/{application}-{profile}.yml
+        /{application}-{profile}.properties
+        /{label}/{application}-{profile}.properties
+
+    上面的 URL 会映射{application}-{profile}.yml对应的配置文件，其中{label}对应 Git 上不同的分支，默认为 master。以 eurekaclient-dev.yml 为例子，它的 application 是 eurekaclient，profile 是 dev。
+
+
 在本文中，我们将学习如何构建一个基于 Git 存储的分布式配置中心，并对客户端进行改造，并让其能够从配置中心获取配置信息并绑定到代码中的整个过程。最后，我们还将了解如何能让客户端获取到修改后的最新配置
 
 

@@ -42,9 +42,11 @@ eureka:
       enabled: false
 
 #如果启用消息总线的话 需加入如下配置
+#说明:Spring Boot 1.5.X 以上默认开通了安全认证，所以需要在配置文件中application.yml 中添加如下配置以 蒋 /actuator/refresh 这个Endpoint暴露出来
 management:
   endpoints:
     #此参数决定了，其他client 需要加上 web依赖,即：spring-boot-starter-web 因为主pom里已添加，所以其他子项目就不需要添加了
     web:
       exposure:
+        #bus-refresh
         include: bus-refresh

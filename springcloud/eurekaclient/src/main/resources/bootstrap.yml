@@ -7,7 +7,7 @@ spring:
   cloud:
     config:
       profile: dev #指定配置环境，配置文件如果是多环境则取名类似：config-dev.yml
-      label: master #git仓库分支名
+      label: master #git仓库分支名 对应 {label} 部分，即 Git 的分支。如果配置中心使用的是本地存储，则该参数无用
       name: eurekaclient #指定配置文件名字（多个配置文件以英文逗号隔开）
 
       discovery:
