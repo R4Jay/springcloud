@@ -1,5 +1,5 @@
 info:
-  profile: dev01
+  profile: error
 eureka:
   client:
     serviceUrl:
