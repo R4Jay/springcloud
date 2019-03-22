@@ -1,3 +1,5 @@
+info:
+  profile: test
 eureka:
   client:
     serviceUrl:
