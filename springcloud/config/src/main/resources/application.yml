@@ -25,15 +25,13 @@ spring:
           #配置仓库的分支
 #          label: master
           default-label: master
-      bus:
-        trace:
-          enabled: true
-        enabled: true
+  bus:
+    trace:
+      enabled: true
+    enabled: true
 #对外配置服务端口
 server:
   port: 8888
-
-
 eureka:
   instance:
     #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
@@ -41,8 +39,8 @@ eureka:
     #InstanceId: ${spring.cloud.client.ip-address}:${server.port}
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
-    register-with-eureka: true
-      #    serviceUrl: 老版本的写法
+    #register-with-eureka: true
+      #serviceUrl: 老版本的写法
       service-url:
         defaultZone: http://localhost:8761/eureka/
       #security:

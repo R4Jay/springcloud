@@ -15,3 +15,10 @@ eureka:
     service-url: #serviceUrl: 老版本用法
       defaultZone: http://localhost:8761/eureka/
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+#基于bus总线刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

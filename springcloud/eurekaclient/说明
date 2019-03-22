@@ -24,3 +24,8 @@ spring:
     name: eurekaclient
 
 特别注意：上面这些与 Spring Cloud Config 相关的属性必须配置在 bootstrap.yml 中，config 部分内容才能被正确加载。因为 config 的相关配置会先于 application.yml，而 bootstrap.yml 的加载也是先于 application.yml。
+
+#开启rabbitmq 管理界面命令
+rabbitmq-plugins.bat enable rabbitmq_management
+
+#rabbit mq 默认网址:http://localhost:15672 默认用户名密码 guest/guest

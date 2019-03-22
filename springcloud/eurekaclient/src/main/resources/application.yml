@@ -1,15 +1,15 @@
 spring:
   application:
     name: eurekaclient
-  cloud:
-    bus:
-      trace:
+    cloud:
+      bus: #开启总线消息bus追踪
+        trace:
+          enabled: true
         enabled: true
-      enabled: true
+  #  此配置节点用于 开启支撑手动刷新远程git 配置文件
+  #  management:
+  #    endpoints:
+  #      web:
+  #        exposure:
+  #          include: refresh
 
-#  此配置节点用于 开启支撑手动刷新远程git 配置文件
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: refresh
