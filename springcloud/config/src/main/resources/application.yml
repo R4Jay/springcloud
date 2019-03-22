@@ -17,7 +17,7 @@ spring:
       server:
         git:
           #配置git仓库地址
-          uri: https://github.com/r4jay/springcloudlearning.git
+          uri: https://github.com/r4jay/springcloud.git
           #uri: git@github.com:r4jay/springcloudlearning.git
           #配置仓库路径
           searchPaths: config
@@ -31,15 +31,15 @@ spring:
 
 eureka:
   instance:
-  #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
-  hostname: ${spring.cloud.client.ip-address}
-  instanceId: ${spring.cloud.client.ip-address}:${server.port}
+    #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
+    hostname: ${spring.cloud.client.ip-address}
+    #InstanceId: ${spring.cloud.client.ip-address}:${server.port}
   client:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-    security:
-      enabled: false
+    #security:
+      #enabled: false
 
 #如果启用消息总线的话 需加入如下配置
 #说明:Spring Boot 1.5.X 以上默认开通了安全认证，所以需要在配置文件中application.yml 中添加如下配置以 蒋 /actuator/refresh 这个Endpoint暴露出来
