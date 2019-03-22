@@ -1,9 +1,11 @@
 package com.lynn;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@RefreshScope
 @RestController
 public class HelloController {
 
@@ -14,4 +16,12 @@ public class HelloController {
     public String index(){
         return "Hello World!,端口："+ port;
     }
+
+    /*@Value("${foo}")
+    String foo;
+
+    @RequestMapping("/foo")
+    public String hi(){
+        return foo;
+    }*/
 }

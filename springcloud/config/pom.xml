@@ -37,8 +37,8 @@
             <!--这里需要注意启用配置中心 如果要注册到注册中心 需为下边的包 针对 springcloud Finchley.RELEASE-->
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-
-        <!--<dependency>
+        <!--如果配置中心启用消息总线 需增加如下配置(消息队列设定的是利用rabbit mq去执行如下操作):spring-cloud-bus,spring-cloud-stream-binder-rabbit-->
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-bus</artifactId>
         </dependency>
@@ -46,7 +46,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
         </dependency>
--->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

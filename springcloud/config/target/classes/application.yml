@@ -5,7 +5,13 @@ spring:
   application:
     name: config-server
   profiles:
+    #active属性值为 如果为native则表示从本地读取配置文件
     active: dev
+  #例如:cloud:
+      #    config:
+      #      server:
+      #        native:
+      #          search-locations: classpath:/shared
   cloud:
     config:
       server:
@@ -21,6 +27,8 @@ spring:
           password: xt193429
       #配置仓库的分支
       label: master
+
+
 eureka:
   instance:
   #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address

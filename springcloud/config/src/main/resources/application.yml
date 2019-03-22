@@ -5,7 +5,13 @@ spring:
   application:
     name: config-server
   profiles:
+    #active属性值为 如果为native则表示从本地读取配置文件
     active: dev
+  #例如:cloud:
+      #    config:
+      #      server:
+      #        native:
+      #          search-locations: classpath:/shared
   cloud:
     config:
       server:
@@ -21,6 +27,8 @@ spring:
           password: xt193429
       #配置仓库的分支
       label: master
+
+
 eureka:
   instance:
   #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
@@ -32,3 +40,11 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     security:
       enabled: false
+
+#如果启用消息总线的话 需加入如下配置
+management:
+  endpoints:
+    #此参数决定了，其他client 需要加上 web依赖,即：spring-boot-starter-web 因为主pom里已添加，所以其他子项目就不需要添加了
+    web:
+      exposure:
+        include: bus-refresh
