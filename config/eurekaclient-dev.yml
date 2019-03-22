@@ -1,5 +1,5 @@
 info:
-  profile: dev bus
+  profile: dev bus new
 eureka:
   client:
     serviceUrl:
