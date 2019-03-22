@@ -1,3 +1,5 @@
+info:
+  profile: dev01
 eureka:
   client:
     serviceUrl:
