@@ -1,10 +1,18 @@
-#spring:
-#  application:
-#    name: eurekaclient
-#server:
-#  port: 8766
+#基于bus总线刷新
+server:
+  port: 8764
+spring:
+  application:
+    name: eurekaclient
+    cloud:
+      bus: #开启总线消息bus追踪
+        trace:
+          enabled: true
+        enabled: true
+  #  此配置节点用于 开启支撑手动刷新远程git 配置文件
+
 management:
   endpoints:
     web:
       exposure:
-        include: refresh
+        include: bus-refresh

@@ -11,6 +11,8 @@
         <module name="eurekaserver" />
         <module name="feign" />
         <module name="gateway" />
+        <module name="sleuth-zipkin" />
+        <module name="web-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +21,9 @@
       <module name="eurekaserver" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="sleuth-zipkin" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="web-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

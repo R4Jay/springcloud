@@ -1,38 +1,489 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="38ff3327-14a3-4d47-8513-b3ec5a0a36f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="5ea6c290-8150-4a50-b810-7a79ae0903d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/VueFirst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/VueFirst.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/aside.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/badge.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/breadcrumb-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/button-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/carousel-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/cascader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/checkbox-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/checkbox-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/col.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/collapse-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/collapse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/color-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/date-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/display.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/dropdown-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/dropdown-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/form-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/input-number.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/menu-item-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/menu-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/message-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/notification.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/option-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/option.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/popover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/popper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/radio-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/radio-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/radio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/rate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/select-dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/submenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/tab-pane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/table-column.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/tag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/time-picker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/time-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/timeline-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/transfer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/assets/theme/element-#409eff/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/mock/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/pages/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/pages/Member.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/e2e/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/e2e/specs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/unit/jest.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/unit/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueFirst/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/test/test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/sleuth-zipkin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/src/main/java/com/lynn/sleuthzipkin/Controllers/TraceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/src/main/java/com/lynn/sleuthzipkin/SleuthZipkinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/src/test/java/com/lynn/sleuthzipkin/SleuthZipkinApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sleuth-zipkin/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/SiteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/WebThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/backindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/form-element.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/screenshots/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/media-queries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/typicons/typicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/typicons/typicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/webjars/backindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/backindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-thymeleaf/src/test/java/com/lynn/webthymeleaf/WebThymeleafApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/src/main/java/com/lynn/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/lynn/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/src/main/java/com/lynn/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/src/main/java/com/lynn/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/target/classes/com/lynn/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/lynn/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaclient/target/classes/com/lynn/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaclient/target/classes/com/lynn/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Controllers/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Controllers/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/lynn/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/com/lynn/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Services/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Services/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Services/ApiServiceError.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/com/lynn/Services/ApiServiceError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/lynn/Controllers/FeignController.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/classes/com/lynn/Controllers/FeignController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/lynn/FeignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/classes/com/lynn/FeignApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/lynn/Services/ApiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/classes/com/lynn/Services/ApiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/classes/com/lynn/Services/ApiServiceError.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/classes/com/lynn/Services/ApiServiceError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/target/test-classes/com/lynn/feign/FeignApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/feign/target/test-classes/com/lynn/feign/FeignApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/j/gateway/ApiFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/lynn/gateway/ZuulFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/j/gateway/ApiFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/lynn/gateway/ApiFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/j/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/lynn/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
     </list>
     <ignored path="$PROJECT_DIR$/gateway/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/eurekaclient/target/" />
+    <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
     <ignored path="$PROJECT_DIR$/feign/target/" />
+<<<<<<< HEAD
+=======
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/eurekaclient/target/" />
+    <ignored path="$PROJECT_DIR$/sleuth-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/web-thymeleaf/target/" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VueFirst/src/pages/Main.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1159">
+              <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueFirst/src/pages/Member.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueFirst/config/dev.env.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueFirst/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/java/com/lynn/config/ConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueFirst/build/build.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VueFirst/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#106#137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ConfigurableApplicationContext</find>
+      <find>SpringApplication</find>
+      <find>run</find>
+      <find>tomcat</find>
+      <find>AnnotationConfigApplicationContext</find>
+      <find>backstretch</find>
+      <find>social-changelog</find>
+      <find>navbar-right</find>
+      <find>1.jpg</find>
+      <find>navbar-nav</find>
+      <find>typecn</find>
+      <find>typcn</find>
+      <find>.navbar-brand</find>
+      <find>$router</find>
+    </findStrings>
+  </component>
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sunjx" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="259" />
     <option name="y" value="73" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/feign/src/main/java/com/lynn/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-server/src/main/java/com/lynn/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/说明" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/src/main/java/com/lynn/sleuthzipkin/SleuthZipkinApplication.java" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin/src/main/java/com/lynn/sleuthzipkin/Controllers/TraceController.java" />
+        <option value="$PROJECT_DIR$/feign/src/main/java/com/lynn/Services/ApiServiceError.java" />
+        <option value="$PROJECT_DIR$/feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/test.html" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/controllers/ThmeleafController.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/TymeleafController.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/webjars/backindex.html" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/backindex.html" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/User.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/WebThymeleafApplication.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Config/MybatisConfig.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/Article.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/backindex.html" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/animate.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/form-element.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/media-queries.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/ionicons.min.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/wow.min.js" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/jquery.backstretch.min.js" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/typicons/typicons.min.css" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/ThymeleafController.java" />
+        <option value="$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/SiteController.java" />
+        <option value="$PROJECT_DIR$/VueFirst/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/VueFirst/src/pages/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/VueFirst/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/VueFirst/src/mock/index.js" />
+        <option value="$PROJECT_DIR$/VueFirst/src/pages/Member.vue" />
+        <option value="$PROJECT_DIR$/VueFirst/src/mock/member.js" />
+        <option value="$PROJECT_DIR$/VueFirst/src/App.vue" />
+        <option value="$PROJECT_DIR$/VueFirst/src/router/index.js" />
+        <option value="$PROJECT_DIR$/VueFirst/src/main.js" />
+        <option value="$PROJECT_DIR$/VueFirst/src/pages/Main.vue" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="175" />
+    <option name="y" value="228" />
+    <option name="width" value="1400" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -41,10 +492,173 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lynn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lynn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sleuth-zipkin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="VueFirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="VueFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="VueFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="VueFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="web-thymeleaf" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -52,8 +666,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554792550563" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554790648700" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\OPS\springcloudlearning\springcloud\VueFirst\src\assets\theme" />
+      <recent name="D:\Projects\OPS\springcloudlearning\springcloud\web-thymeleaf\src\main\resources\static\css\img" />
+      <recent name="D:\Projects\OPS\springcloudlearning\springcloud\web-thymeleaf\src\main\resources\static\css\typicons" />
+      <recent name="D:\Projects\OPS\springcloudlearning\springcloud\web-thymeleaf\src\main\resources\templates" />
+    </key>
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -64,22 +715,214 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.20508657" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RunManager" selected="npm.RunVue">
+    <configuration name="All in web-thymeleaf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="feign" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="feign" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eurekaclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lynn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lynn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lynn.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lynn.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.gateway.GatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.sleuthzipkin.SleuthZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web-thymeleaf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lynn.webthymeleaf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lynn.webthymeleaf.WebThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunVue" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/VueFirst/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in web-thymeleaf" />
+      <item itemvalue="npm.RunVue" />
+      <item itemvalue="Spring Boot.SleuthZipkinApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.FeignApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.WebThymeleafApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebThymeleafApplication" />
+        <item itemvalue="JUnit.All in web-thymeleaf" />
+        <item itemvalue="Spring Boot.FeignApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="38ff3327-14a3-4d47-8513-b3ec5a0a36f3" name="Default Changelist" comment="" />
       <created>1554791364499</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554791364499</updated>
       <workItem from="1554791366884" duration="1134000" />
+=======
+      <changelist id="5ea6c290-8150-4a50-b810-7a79ae0903d5" name="Default Changelist" comment="" />
+      <created>1553392793497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553392793497</updated>
+      <workItem from="1553392795169" duration="7397000" />
+      <workItem from="1553412723231" duration="12110000" />
+      <workItem from="1553501639280" duration="83204000" />
+      <workItem from="1554341120299" duration="9000" />
+      <workItem from="1554341411313" duration="3311000" />
+      <workItem from="1554350440240" duration="20345000" />
+      <workItem from="1554691489591" duration="15628000" />
+      <workItem from="1554778367650" duration="1548000" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_web-thymeleaf - 2019.04.01 at 17h 02m 45s.xml">
+      <configuration name="All in web-thymeleaf" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1134000" />
   </component>
   <component name="ToolWindowManager">
@@ -92,6 +935,14 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+=======
+    <option name="totallyTimeSpent" value="143552000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1186" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -102,6 +953,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -117,9 +969,563 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20512821" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31434" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.52421653" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32953465" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" visible="true" weight="0.32953465" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.20512821" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" weight="0.32953465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019.04.19 Commit by sunjx" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.04.19 Commit by sunjx" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/j/gateway/ApiFilter.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/feign/src/main/java/com/lynn/FeignApplication.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/feign/src/main/java/com/lynn/FeignApplication.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/controllers/ThmeleafController.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/SiteController.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Config/MybatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/img/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/backindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/ionicons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="50806" selection-start-line="10" selection-start-column="50806" selection-end-line="10" selection-end-column="50806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/form-element.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-685">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60093">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4826">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/js/jquery.backstretch.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/typicons/typicons.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14413" selection-start-column="14413" selection-end-column="14413" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/ThymeleafController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/Controllers/SiteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/java/com/lynn/webthymeleaf/WebThymeleafApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/backindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18088">
+          <caret line="952" column="1" selection-start-line="952" selection-start-column="1" selection-end-line="952" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/VueFirst.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sleuth-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/config/test.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+          <folding>
+            <element signature="e#58#1501#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/mock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#122#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/mock/member.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/pages/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/pages/Member.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#el-col#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#template#0;n#el-table-column#0;n#el-table#0;n#section#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#106#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/lynn/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-thymeleaf/src/main/resources/static/css/media-queries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VueFirst/src/pages/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>web-thymeleaf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+>>>>>>> e3ec1729235ba784f256f05c5f7d7d440bbc370f
 </project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/VueFirst/VueFirst.iml" filepath="$PROJECT_DIR$/VueFirst/VueFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config-server.iml" filepath="$PROJECT_DIR$/config/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth-zipkin/sleuth-zipkin.iml" filepath="$PROJECT_DIR$/sleuth-zipkin/sleuth-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-thymeleaf/web-thymeleaf.iml" filepath="$PROJECT_DIR$/web-thymeleaf/web-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

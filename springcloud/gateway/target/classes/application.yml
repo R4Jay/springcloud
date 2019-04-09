@@ -1,16 +1,25 @@
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-server:
-  port: 8080
 spring:
   application:
-    name: gateway
+    name: api-gateway
+server:
+  port: 8789
+
+eureka:
+  instance:
+    #SpringCloud版本升级为Finchley.RELEASE    改为ipAddress ip-address
+    hostname: ${spring.cloud.client.ip-address}
+    #InstanceId: ${spring.cloud.client.ip-address}:${server.port}
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+# 默认可以不需要指向 ServiceID 不过可以通过指定路由，即：通过zuul.routes.api.path 进行路由设定
+# 如果不通过路由设定,同时不指定serviceId ，可以通过http://localhost:网关端口号/serviceid/action  进行访问 其中action为对外开放的api
 zuul:
   routes:
     api:
       #zuul.routes.api.path：指定请求基础地址，其中 API 可以是任何字符。
       path: /api/**
       #转发到的服务 ID，也就是指定服务的 application.name，上述实例的含义表示只要包含 /api/ 的地址，都自动转发到 eurekaclient 的服务去。
-      serviceId: eurekaclient
+      serviceId: feign
