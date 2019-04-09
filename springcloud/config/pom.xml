@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>config-server</artifactId>
-    <name>config-server</name>
+    <name>config</name>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>Spring Cloud Config Server project for Spring Boot</description>

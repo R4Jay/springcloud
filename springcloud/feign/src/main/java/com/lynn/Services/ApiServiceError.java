@@ -8,4 +8,14 @@ public class ApiServiceError implements ApiService {
     public String index() {
         return "调用服务发生异常";
     }
+
+    @Override
+    public String info() {
+        return "调用服务发生异常";
+    }
+
+    @Override
+    public String hello(String name) {
+        return "调用服务异常";
+    }
 }

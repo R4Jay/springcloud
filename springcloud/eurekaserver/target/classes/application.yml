@@ -22,4 +22,5 @@ eureka:
     serviceUrl:
       #client.serviceUrl.defaultZone 注册中心默认地址。
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      register-with-eureka: false
 

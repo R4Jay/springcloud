@@ -25,10 +25,10 @@ spring:
           #配置仓库的分支
 #          label: master
           default-label: master
-      bus:
-        trace:
-          enabled: true
-        enabled: true
+  bus:
+    trace:
+      enabled: true
+    enabled: true
 #对外配置服务端口
 server:
   port: 8888

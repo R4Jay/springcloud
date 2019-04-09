@@ -101,7 +101,7 @@
         </dependencies>
     </dependencyManagement>
     <!--使用aliyun镜像-->
-    <repositories>
+   <!-- <repositories>
         <repository>
             <id>alimaven</id>
             <name>Maven Aliyun Mirror</name>
@@ -113,5 +113,5 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>-->
 </project>

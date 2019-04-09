@@ -7,22 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
+        <module name="config-server" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="feign" />
+        <module name="gateway" />
+        <module name="sleuth-zipkin" />
+        <module name="web-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="feign" target="1.8" />
-      <module name="gateway" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="sleuth-zipkin" options="-parameters" />
+      <module name="web-thymeleaf" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>
